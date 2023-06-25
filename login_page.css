@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(186, 228, 228);
+  
+}
+.box{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 50%;
+    padding-top: 80px;
+    padding-right: 217px;
+    padding-left: 217px;
+    padding-bottom: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(100, 176, 226);
+    text-align: center;
+    border-radius: 35px;
+    
+  
+}
+.box h1{
+    color: rgb(10, 10, 10);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #050505;
+    padding: 14px 10px;
+    height:20px;
+    width: 300px;
+    outline: none;
+    color: rgb(8, 8, 8);
+    border-radius: 24px;
+    transition: 0.25s;
+    font-size: 18px;
+    background-color: white;
+    font-size: 18px;
+
+}
+.select_role_login{
+    text-align: center;
+    height:30px;
+    width: 100px;
+    border-radius: 24px;
+    border: 1px solid black;
+    font-size: 18px;
+    margin-top: -22px;
+
+}
+  
+  /* .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #faf6f6;
+  } */
+.box input[type = "submit"]{
+    border:0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: #edf1ef;
+    color: black;
+    border: 1px solid black;
+}
+  
+  /* .second {
+    background :#0fe47a;
+  }
+  .first {
+    background :#18da79;
+  } */
+  
+.box .register_link{
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+  
+
+
+.slidefirst.hide-btn::before{
+    content: "\f070";
+}

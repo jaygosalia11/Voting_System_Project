@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>َ Login Form</title>
+  <link rel="stylesheet" href="login_page.css">
+</head>
+
+<body>
+
+  <form class="box" action="loginform.php" method="POST">
+    <h1>Login Details</h1>
+    <input type = "text" class = "first" required name = "email" placeholder = "Enter Your Email ID">
+    <input type = "password" class = "second" required name = "password" placeholder = " Enter your Password">
+    <b>Select anyone role:</b>
+    <select name="role" class="select_role_login">
+        <option value="1">Voter</option>
+        <option value="2">Party</option>
+    </select>
+    <br>
+    <br>
+
+    <!-- <div class= "slide first">
+      <img src="9.png" alt="">
+   </div> -->
+    <a href="registrationform.html" class="register_link">Not having account? Click here to register</a>
+    <input type="submit" name="loginform" value="Login">
+  </form>
+
+
+  <!-- <script>
+    const passField = document.querySelector("second");
+    const showBtn = document.querySelector("slide first");
+    showBtn.onclick = (()=>{
+      if(passField.type === "password"){
+        passField.type = "text";
+        showBtn.classList.add("hide-btn");
+      }else{
+        passField.type = "password";
+        showBtn.classList.remove("hide-btn");
+      }
+    });
+  </script> -->
+
+
+</body>
+
+</html>

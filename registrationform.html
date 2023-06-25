@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>
+        Online Voting System
+    </title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="finalregister">
+            <form class="register_form" method ="POST" action="registration.php" enctype="multipart/form-data" >
+                <b>Full Name:</b>
+                <input type="text" name="fname" class="register" required >
+                <br>
+                <br>
+                <b>Contact Number:</b>
+                <input type="number" name="contact" class="register" required>
+                <br>
+                <br>
+                <b>Enter Your Email ID:</b>
+                <input type="text" name="email_1" class="register" required>
+                <br>
+                <br>
+                <b>Address:</b>
+                <input type="text" name="address" class="register" required>
+                <br>
+                <br>
+                <b>Select anyone role:</b>
+                <select name="role" class="select_role" required>
+                    <option value="1">Voter</option>
+                    <option value="2">Party</option>
+                </select>
+                <br>
+                <br>
+                <b>Upload Your image:</b>
+                <input type="file" class="personalimage" name="user_image" required>
+                <br>
+                <br>
+                <b>New Password:</b>
+                <input type="password" name="newpassword" class="register" required>
+                <br>
+                <br>
+                <b>Confirm New password:</b>
+                <input type="password" name="confirmpassword" class="register" required>
+                <br>
+                <br>
+                <input type="submit" name="registerform" value="Register">
+                <!-- <button type="submit" name="registerform">Register</button> -->
+            </form>
+    </div>
+</body>
+
+</html>
